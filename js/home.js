@@ -47,7 +47,7 @@ $(window).scroll(function(){
       var scrlo=$(window).scrollTop(),
       dh=$(document).height(),
       dw=$(document).width();
-      var scrolparent=(scrlo / (dh - dw)) * 683
+      var scrolparent=(scrlo / (dh - dw)) * 783
       $(".porgresbar-scrlo").css('height',scrolparent);
     });
     $(window).scroll(function(){
